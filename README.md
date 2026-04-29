@@ -50,9 +50,9 @@ cp cloud_models.example.json cloud_models.json
 
 ## 云端 API 邀请链接 | Cloud API Invitation Links
 
-如果你希望直接使用本项目预置的云端模型入口，欢迎通过以下邀请链接注册。你的支持可以帮助提升项目后续测试可用额度。
+如果你希望直接使用本项目预置的云端模型入口，可以通过以下链接注册。
 
-If you want to use the preset cloud model providers in this project, you are welcome to register via the invitation links below. Your support helps increase available API quota for future testing and improvements.
+If you want to use the preset cloud model providers in this project, you are welcome to register via the invitation links below. 
 
 - DMXAPI: https://www.dmxapi.cn/register?aff=AkcY
 - SSOPEN: https://api.ssopen.top/register?aff=j9ii

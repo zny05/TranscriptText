@@ -24,7 +24,7 @@
 
 ## Cloud API Links | 云端 API 链接
 
-If TranscriptText helps you, you are warmly welcome to register via the following links. This API is  for project testing and future improvements.
+Registering to use the cloud API through the following link can perfectly match all the functions of the model of this software.
 
 通过以下链接注册使用云端API，可以完美匹配本软件的模型所有功能。
 
