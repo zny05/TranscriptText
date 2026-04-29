@@ -19,6 +19,7 @@ model/
 # Local runtime data
 logs/
 outputs/
+TranscriptText-v*.zip
 
 # Keep secrets local
 cloud_models.local.json
