@@ -2,6 +2,8 @@
 
 WhisperGUI for local and cloud speech-to-text transcription, tailored for long-form Chinese audio workflows.
 
+![TranscriptText Startup](assets/startup-screenshot.png)
+
 ## 简介 | Overview
 
 TranscriptText 是一个桌面 GUI 转写工具，支持：
@@ -25,6 +27,15 @@ TranscriptText is a desktop transcription app with:
 ```bash
 pip install faster-whisper requests
 python whisper_gui.py
+```
+
+## 示例配置模板 | Example Config Template
+
+- 请复制 `cloud_models.example.json` 为本地 `cloud_models.json`，再填写自己的密钥。
+- Never commit real keys to GitHub.
+
+```bash
+cp cloud_models.example.json cloud_models.json
 ```
 
 ## 隐私与安全 | Privacy and Security
@@ -51,5 +62,13 @@ Welcome GitHub friends to listen to FuShengJi PODCAST and enjoy the memory and w
 
 - whisper_gui.py: 主程序
 - cloud_models.json: 云端模型配置模板（不含真实密钥）
+- cloud_models.example.json: 云端配置示例模板
 - fushengji.ico: 应用图标
 - 启动WhisperGUI.vbs: Windows 启动脚本
+- assets/startup-screenshot.png: 仓库首页启动截图
+
+## v1.0.0 更新摘要 | v1.0.0 Highlights
+
+- 默认模型目录显示为 `model/whisper`，运行时自动解析到应用目录。
+- 云端模型区新增“保存配置”按钮，可持久化保存 URL/模型/API Key。
+- 补充配置模板与首页截图，方便上手与展示。
