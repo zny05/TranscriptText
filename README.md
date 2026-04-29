@@ -28,6 +28,13 @@ TranscriptText is a desktop transcription app with:
 pip install faster-whisper requests
 python whisper_gui.py
 ```
+## 本地模型目录 | Local Model Directory
+- 默认模型目录显示为 `model/whisper`，运行时自动解析到应用目录。
+- Default model directory in UI now shows `model/whisper`, auto-resolved to app directory at runtime.
+- 请将模型文件放置在 `model/whisper` 目录下，或在界面中选择正确的模型路径。
+- Please place model files in `model/whisper` or select the correct model path in the UI.
+- Whisper 模型文件可从 Hugging Face 下载，(https://huggingface.co/Systran/faster-whisper-large-v3/tree/main)
+- Whisper model files can be downloaded from Hugging Face, (https://huggingface.co/Systran/faster-whisper-large-v3/tree/main)
 
 ## 示例配置模板 | Example Config Template
 

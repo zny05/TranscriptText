@@ -22,6 +22,14 @@
 - 新增 `cloud_models.example.json` 示例模板，便于安全上手。
 - README 新增启动截图展示。
 
+## 本地模型目录 | Local Model Directory
+- 默认模型目录显示为 `model/whisper`，运行时自动解析到应用目录。
+- Default model directory in UI now shows `model/whisper`, auto-resolved to app directory at runtime.
+- 请将模型文件放置在 `model/whisper` 目录下，或在界面中选择正确的模型路径。
+- Please place model files in `model/whisper` or select the correct model path in the UI.
+- Whisper 模型文件可从 Hugging Face 下载，(https://huggingface.co/Systran/faster-whisper-large-v3/tree/main)
+- Whisper model files can be downloaded from Hugging Face, (https://huggingface.co/Systran/faster-whisper-large-v3/tree/main)
+
 ## Cloud API Links | 云端 API 链接
 
 Registering to use the cloud API through the following link can perfectly match all the functions of the model of this software.
