@@ -1,0 +1,18 @@
+{
+  "profiles": [
+    {
+      "name": "DMXAPI-gpt-4o-transcribe",
+      "api_url": "https://www.dmxapi.cn/v1/audio/transcriptions",
+      "model": "gpt-4o-transcribe",
+      "api_key": "",
+      "response_format": "verbose_json"
+    },
+    {
+      "name": "SSOPEN-gpt-4o-transcribe",
+      "api_url": "https://api.ssopen.top/v1/audio/transcriptions",
+      "model": "gpt-4o-transcribe",
+      "api_key": "",
+      "response_format": "verbose_json"
+    }
+  ]
+}
